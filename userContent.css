@@ -1,0 +1,44 @@
+/**************************** NEWTAB PAGE ****************************/
+@-moz-document url("about:home"), url("about:newtab") {
+	
+	
+	body {
+		background-image: url("bg.jpg");
+		background-size: cover;
+		--newtab-search-border-color: none !important;
+	}
+	
+	/* Section above buttons */
+	.section-top-bar {
+		display: none !important;
+	}
+
+	/* Removes title below buttons */
+	.top-site-outer .title {
+		font-size: 15pt !important;
+		width: auto !important;
+		display: none !important;
+	}
+
+	.icon-pin-small{
+		display: none !important;
+	}
+
+	/* Removes settings button */
+	.prefs-button {
+		display: none !important;
+		border: none !important;
+	}
+
+	.top-site-outer .rich-icon {
+		border: none !important;
+	}
+	.top-site-outer .tile {
+		border: none !important;
+	}
+	.top-site-outer .default-icon {
+		border: none !important;
+	}
+
+}
+/**************************** NEWTAB PAGE ****************************/
