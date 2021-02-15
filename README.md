@@ -68,16 +68,19 @@ Simply open userChrome.css in a text editor and change the values at the top of 
 ![](https://coekuss.com/quietfox/urlbar_buttons.gif)
 
 
+## Installation about:config
+1. Copy the chrome folder and user.js file into your Firefox profile directory. To find your profile directory, go to about:support or about:profiles.
+2. See [Recommended instructions](#recommended-instructions) if you'd prefer a more Chrome-like experience.
+3. Restart Firefox.
 
-## How to install
-1. [Download](https://github.com/coekuss/quietfox/releases/latest/download/quietfox.zip) and unzip
-2. Go to `about:support` in Firefox and open your Profile Folder
-3. Drop your unzipped "chrome" folder into the folder that appears
-4. Go to `about:config` in your Firefox and set the value of `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` (this enables the loading of userChrome mods)
-5. Restart Firefox
+## How to install css
+1. Go to `about:support` in Firefox and open your Profile Folder
+2. Drop your unzipped "chrome" folder into the folder that appears
+3. Go to `about:config` in your Firefox and set the value of `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` (this enables the loading of userChrome mods)
+4. Restart Firefox
 
 
-✔ Tested on Firefox 78 on Windows 10 and Ubuntu 19.10
+✔ Tested on Firefox 85 on Windows 10
 
 ---
 
